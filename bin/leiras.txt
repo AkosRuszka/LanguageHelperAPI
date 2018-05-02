@@ -1,0 +1,17 @@
+Program célja: Megkönnyíteni az angol szótanulási folyamatot
+Hogyan éri ezt el? :
+    Idegen szavakat lehet felvenni, jelentésekkel együtt
+    Felvételkor ellenőrzi hogy az adott szó szerepel e már a listában.
+        Ha szerepel a listában akkor előhívja azt a szót és lehet szerkeszteni (pl.: új jelentés hozzáírása, vagy a meglévőeket módosítani)
+    Szavakat lehet törölni
+    Szavakat lehet kilistázni
+    Kifejezés/Mondatokat lehet felvenni + törölni + kilistázni + módosítani
+
+A már felvett idegenszavak egy adatbázisban tárolódnak el. Erre a DERBY beépített adatbázist használom.
+
+Több platformos!
+    Gépen a megjelenítés JAVAFX-el lesz megvalósítva
+    Böngészőben - HTML/CSS/JS + BackEnd: SpringBoot
+    Telefonon ?
+
+Ez a Model + Service része az egész programnak.
