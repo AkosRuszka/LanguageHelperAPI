@@ -19,7 +19,7 @@ public class LangHelper {
 		
 //	public static void main(String[] agrs) {
 //
-//		//wrep.getWords().forEach((d)->System.out.println(d));
+//		wrep.getWords().forEach((d)->System.out.println(d));
 //		
 //	}
 	
