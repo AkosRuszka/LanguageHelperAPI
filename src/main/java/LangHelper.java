@@ -17,11 +17,11 @@ public class LangHelper {
 
 	private static WordRepository wrep = new WordRepository();
 		
-//	public static void main(String[] agrs) {
-//
-//		wrep.getWords().forEach((d)->System.out.println(d));
-//		
-//	}
+	public static void main(String[] agrs) {
+
+		wrep.getWords().forEach((d)->System.out.println(d));
+		
+	}
 	
 	/** 
 	 * Új bejegyzés hozzáadása az adatbázishoz.
