@@ -2,20 +2,20 @@
 
 Egy nyelvtanulást segítő, szótárfüzet. 
 
-Miben más egy jegyzetfüzettől?
+### Funkciók:
 
-    Idegen szavakat lehet felvenni, jelentésekkel együtt.
-    Felvételkor ellenőrzi hogy az adott szó szerepel e már a listában.
-        - ha szerepel a listában akkor előhívja azt a szót és lehet szerkeszteni 
-        (pl.: új jelentés hozzáírása, vagy a meglévőeket módosítani)
-    Szavakat lehet törölni, listázni, keresni.
-    Kifejezés/Mondatokat lehet felvenni, törölni, listázni, módosítani.
+    * Idegen szavakfelvétele.
+    * Kifejezés/Mondatokat lehet felvenni, törölni, listázni, módosítani.
+        *Felvételkor ellenőrzi hogy az adott szó szerepel e már a listában.
+            - ha szerepel a listában akkor előhívja azt a szót és lehet szerkeszteni 
+            (pl.: új jelentés hozzáírása, vagy a meglévőeket módosítani)
+    * Adatbázisban levő szavak/kifejezések törlése, listázása, keresése.
+    
 
-Az elmentett szavakat egy H2 embedded adatbázisba tárolja.
+### Megvalósítás
 
-Több platformos!
-    Gépen a megjelenítés JAVAFX-el lesz megvalósítva.
-    Böngészőben - HTML/CSS/JS + BackEnd: SpringBoot.
-    Telefonon ?
+    Adatbázis: H2
 
-Ez a Model + Service része az egész programnak.
+    Megjelenítés:
+        - gép: JAVAFX (készül)
+        - böngésző: HTML/CSS + SpringBoot
